@@ -1,0 +1,421 @@
+body {
+  font-family: 'Playfair Display', serif;
+  color: #626262;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* site_headerここから */
+.site_header .header_container {
+  width: 1062px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  padding-top: 69px;
+  margin-bottom: 73px;
+}
+
+.header_nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 574px;
+}
+
+.header_nav ul li a {
+  font-size: 14px;
+  color: #626262;
+}
+
+.site_header .header_menubar {
+  display: none;
+}
+
+.container {
+  width: 1062px;
+  margin: 0 auto;
+  padding-bottom: 98px;
+}
+/* site_headerここまで */
+
+/* main */
+.main_container {
+  width: 900px;
+  margin: 0 auto;
+}
+/* main_textここから */
+.subtitle {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+}
+
+.main_text h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 39px;
+}
+
+.main_text .text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+  margin-bottom: 54px;
+}
+
+.comment_btn {
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  color: #b4ad9e;
+  margin-bottom: 134px;
+}
+/* main_textここまで */
+
+/* postsここから */
+.post_row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 135px;
+}
+
+.last_row {
+  margin-bottom: 168px;
+}
+
+.post {
+  max-width: 420px;
+}
+
+.post img {
+  margin-bottom: 31px;
+}
+
+.post_subtitle {
+  font-family: 'Ubuntu', sans-serif;  
+  font-size: 14px;
+  font-weight: 300;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.post h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 41px;
+}
+
+.post_text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.load_btn {
+  display: block;
+  width: 164px;
+  height: 60px;
+  margin: 0 auto;
+  border: 1px solid #626262;
+  font-size: 20px;
+  color: #626262;
+  text-align: center;
+  line-height: 60px;
+}
+/* postsここまで */
+
+/* newsletterここから */
+.newsletter {
+  background: #f0f0f0;
+  text-align: center;
+  padding: 73px 0;
+  margin-bottom: 104px;
+}
+
+.newsletter h2 {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: .025em;
+  margin-bottom: 60px;
+}
+
+.email {
+  display: inline-block;
+  border-bottom: 1px solid #000;
+}
+
+.email input {
+  border: none;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 3px;
+}
+
+.input_email {
+  width: 396px;
+  background: #f0f0f0;
+}
+
+.email input::placeholder {
+  font-size: 14px;
+}
+/* newsletterここまで */
+
+/* site_footerここから */
+.site_footer {
+  background: #f0f0f0;
+  margin-top: 1370px;
+}
+
+.site_footer .container {
+  width: 1062px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 46px;
+}
+
+.site_footer ul {
+  display: flex;
+  justify-content: space-between;  
+}
+
+.footer_nav {
+  margin-left: 83px;
+}
+
+.footer_nav ul li {
+  margin-right: 17px;
+}
+
+.site_footer a {
+  font-size: 14px;
+  color: #000;
+  text-transform: none;
+}
+
+.sns_text {
+  margin-right: 4px;
+}
+
+.footer_sns_icons i {
+  font-size: 18px;
+  color: #626262;
+  margin-left: 18px;
+}
+/* site_footerここまで */
+
+
+/* メディアクエリここから */
+@media screen and (min-width: 768px) and (max-width: 1060px) {
+  /* header */
+  .site_header .header_container {
+  width: 100%;
+  padding: 0 20px;
+  }
+
+  h1 {
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .header_nav ul {
+    width: 460px;
+  }
+
+  .site_header .container {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .site_header img {
+    width: 100%;
+  }
+
+  /* main */
+  .main_container {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .comment_btn {
+    margin-bottom: 50px;
+  }
+
+  .post_row {
+    margin-bottom: 50px;
+    padding: 0 20px;
+  }
+
+  .post img {
+    width: 100%;
+  }
+
+  .post_subtitle {
+    margin-bottom: 20px;
+  }
+
+  .post h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  /* footer */
+  .site_footer .container {
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  
+  .footer_nav {
+    margin-left: 20px;
+  }
+
+   /* 作業用 */
+   header {
+    /* display: none; */
+    }
+  
+    main {
+      /* display: none; */
+    }
+  
+    .posts {
+      /* display: none; */
+    }
+  
+    footer {
+      /* display: none; */
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .site_header .header_container {
+    width: 100%;
+    padding: 0 20px 20px 20px;
+  }
+
+  h1 {
+    margin: 20px 0;
+    padding: 0;
+  }
+
+  .header_nav {
+    display: none;
+  }
+
+  .site_header .header_menubar {
+    display: block;
+  }
+
+  .site_header .container {
+    width: 100%;
+  }
+
+  .site_header img.main_visual {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* main_text */
+  .main_container {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .subtitle {
+    margin-bottom: 10px;
+  }
+
+  .main_text h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .main_text .text {
+    width: 100%;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  .comment_btn {
+    margin-bottom: 50px;
+  }
+
+  /* post */
+  .post_row {
+    display: block;
+    margin-bottom: 30px;
+  }
+  
+  .last_row {
+    margin-bottom: 50px;
+  }
+
+  .post {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 30px;
+  }
+
+  .post img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .post_subtitle {
+    margin-bottom: 10px;
+  }
+
+  .post h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* newsletter */
+  .newsletter {
+    margin-bottom: 30px;
+  }
+
+  .input_email {
+    width: 200px;
+  }
+
+  /* footer */
+  .site_footer .container {
+    width: 100%;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer_nav {
+    margin-top: 20px;
+    margin-left: 30px;
+  } 
+
+  .footer_nav ul {
+    display: block;
+  }
+
+  .footer_nav ul li {
+    margin-bottom: 10px;
+  }
+
+  .footer_sns_icons {
+    margin-right: 30px;
+  }
+  
+
+ 
+}

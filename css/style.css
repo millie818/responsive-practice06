@@ -8,6 +8,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  opacity: .6;
+  transition: all .3s;
+}
+
 /* site_headerここから */
 .site_header .header_container {
   width: 1062px;

@@ -1,0 +1,244 @@
+@import url("style.css");
+
+/* mainここから  */
+.fullsize_text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+  margin-bottom: 34px;
+}
+
+.fullsize_text span {
+  font-weight: 900;
+}
+
+.second_text {
+  margin-bottom: 73px;
+}
+
+/* contents */
+.contents img {
+  width: 100%;
+  margin-bottom: 61px;
+}
+
+.contents .last_img {
+  margin-bottom: 57px;
+}
+
+blockquote {
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.7;
+  letter-spacing: -.005em;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-bottom: 32px;
+}
+
+.contents .last_text {
+  margin-bottom: 65px;
+}
+
+.share_sns_icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 75px;
+}
+
+.share_sns_icons ul {
+  display: flex;
+  justify-content: space-between;
+  width: 137px;
+}
+
+.share_sns_icons h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  margin-right: 25px;
+}
+
+.share_sns_icons ul li a {
+  font-size: 17px;
+  color: #b4ad9e;
+}
+
+/* suggest */
+.suggest {
+  background: #f5f5f5;
+  padding-top: 68px;
+  padding-bottom: 92px;
+}
+
+.suggest h2,
+.section_text {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #b4ad9e;
+  margin-bottom: 40px;
+}
+
+.suggest_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggest_box img {
+  max-width: 275px;
+  margin-bottom: 25px;
+}
+
+/* comment */
+.comments {
+  padding-top: 67px;
+  padding-bottom: 96px;
+}
+
+.comments dl {
+  display: flex;
+  margin-bottom: 58px;
+}
+
+.comments dl dt {
+  min-width: 72px;
+  height: 72px;
+  margin-right: 36px;
+  margin-top: 4px;
+  border-radius: 50%; 
+}
+
+.user {
+  background: #cae5e0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 34px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new_comment {
+  background: #ededea;
+}
+
+.comments dl dd h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 17px;
+}
+
+.comment {
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 26px;
+}
+
+.comments dl dd a {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  color: #b4ad9e;
+}
+
+.comments input {
+  height: 70px;
+  border: 1px solid #c8c8c8;
+  border-radius: 5px;
+  padding-left: 34px;
+}
+
+.comments input::placeholder {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  color: #c8c8c8;
+}
+
+.comment_sns_icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.comment_sns_icons ul {
+  display: flex;
+}
+
+.comment_sns_icons h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  margin-right: 38px;
+}
+
+.comment_sns_icons a i.fa-twitter {
+  font-size: 17px;
+  color: #c8c8c8;
+  margin-right: 17px;
+}
+
+.comment_sns_icons a i.fa-facebook-f {
+  font-size: 17px;
+  color: #626262;
+}
+
+/* mainここまで  */
+.site_footer {
+  margin-top: 0;
+}
+
+/* メディアクエリ */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+.suggest_box img {
+  width: 100%;
+}
+
+.comments input {
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 768px) {
+.container {
+  padding-bottom: 20px;
+}
+
+  /* contents */
+.contents img {
+  margin-bottom: 30px;
+}
+  /* suggest */
+.suggest {
+  padding-bottom: 30px;
+}
+
+.suggest_container {
+  display: block;
+}
+
+.suggest_box {
+  margin-bottom: 40px;
+}
+
+.suggest_box img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+/* comments */
+.comments {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.comments input {
+  width: 100%;
+}
+}
+
+
+

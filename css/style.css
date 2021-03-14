@@ -305,6 +305,10 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    position: relative;
+  }
+
   .site_header .header_container {
     width: 100%;
     padding: 0 20px 20px 20px;
@@ -319,12 +323,43 @@ h1 {
     display: none;
   }
 
+  .header_nav_container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 300px;
+    text-align: right;
+    padding-top: 30px;
+  }
+
+  .header_nav ul {
+    display: block;
+    width: 100%;
+    background: #626262;
+    opacity: .8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+  }
+
+  .header_nav ul li {
+    margin-bottom: 20px;
+  }
+
+  .header_nav ul li a {
+    color: #f0f0f0;
+  }
+
   .site_header .header_menubar {
     display: block;
+    padding-right: 30px;
+    padding-bottom: 20px;
   }
 
   .site_header .container {
     width: 100%;
+    padding-bottom: 30px;
   }
 
   .site_header img.main_visual {
